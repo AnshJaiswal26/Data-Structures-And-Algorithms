@@ -26,7 +26,7 @@ class Box<T>{
         return val;
     }
 }
-// Internal working of Java_Concepts.Generics
+// Internal working of Java_Concepts.Java_Concepts.Generics
 // it converts 'T' into Object After Declaration of Type
 // class Box{
 //     private Object val;

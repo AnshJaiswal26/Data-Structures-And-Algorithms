@@ -15,8 +15,8 @@ public class GenericCustomExceptionsUsingConstructor {
         }
     }
 }
-// Since we can not create custom Exceptions for Java_Concepts.Generics we will use Constructor
-// because Java_Concepts.Generics removed by compiler at RunTime
+// Since we can not create custom Exceptions for Java_Concepts.Java_Concepts.Generics we will use Constructor
+// because Java_Concepts.Java_Concepts.Generics removed by compiler at RunTime
 // Or we can create exceptions to every Objects
 
 class MyException extends Exception{

@@ -22,7 +22,7 @@ public class WrapperClasses {
         Float h = 1.2f;
         Byte i = 1;
 
-        // why we need Java_Concepts.WrapperClasses
+        // why we need Java_Concepts.Java_Concepts.WrapperClasses
         // because in java there is use of wrapper classes in java collections
         // where we can not use primitive data types
         // example
