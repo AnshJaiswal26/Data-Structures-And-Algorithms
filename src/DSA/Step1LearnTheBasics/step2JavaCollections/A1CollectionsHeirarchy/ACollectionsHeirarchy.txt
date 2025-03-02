@@ -1,0 +1,67 @@
+ Collection FrameWork Hierarchy
+ Iterable
+   └── Collection
+        ├── List
+        │    ├── ArrayList
+        │    ├── LinkedList
+        │    ├── Vector
+        │    │     └── Stack
+        │    └── CopyOnWriteArrayList
+        │
+        ├── Set
+        │    ├── HashSet
+        │    │     └── LinkedHashSet
+        │    ├── TreeSet
+        │    ├── EnumSet
+        │    ├── ConcurrentSkipListSet
+        │    └── CopyOnWriteArraySet
+        │
+        ├── Queue
+        │    ├── LinkedList
+        │    ├── PriorityQueue
+        │    ├── ArrayDeque
+        │    │
+        │    ├── Deque
+        │    │     └── LinkedList (also here)
+        │    │
+        │    ├── BlockingQueue (Interface)
+        │    │     ├── ConcurrentLinkedQueue
+        │    │     ├── ArrayBlockingQueue
+        │    │     ├── LinkedBlockingQueue
+        │    │     ├── PriorityBlockingQueue
+        │    │     ├── SynchronousQueue
+        │    │     └── DelayQueue
+        │    │
+        │    └── ConcurrentLinkedQueue
+        │
+        └── SortedSet
+             └── TreeSet
+
+ Map FrameWork Hierarchy
+ Map (interface)
+ │
+ ├── HashMap (class)
+ │   └── LinkedHashMap (class)
+ ├── WeakHashMap (class)
+ ├──IdentityHashMap (class)
+ │
+ ├── SequencedMap (interface)
+ │   └── LinkedHashMap (class) (also here)
+ │
+ ├── Hashtable (class)
+ │   └── Properties (class)
+ │
+ ├── EnumMap (class)
+ │
+ ├── SortedMap (interface)
+ │   └── NavigableMap (interface)
+ │       ├── TreeMap (class)
+ │       └── ConcurrentSkipListMap (class)
+ │
+ ├── ConcurrentMap (interface)
+ │   ├── ConcurrentHashMap (class)
+ │   └── ConcurrentSkipListMap (class)
+ │
+ └── Immutable Maps (via static factory methods in Map)
+     ├── Map.of(...) (Java 9+)
+     └── Map.copyOf(...) (Java 10+)
